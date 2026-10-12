@@ -10,10 +10,10 @@ typedef struct
 int main(void) {
     int n;
     printf("Vitajte v pokladni!\n");
-    printf("Zadajte pocet poloziek v kosiku (1 až 10 produktov maximalne): ");
+    printf("Zadajte pocet poloziek ktore mate v kosiku (1 až 10 produktov maximalne): ");
     
     if (scanf("%d", &n) != 1 || n <= 0 || n > 10) {
-        printf("Chyba: Neplatna volba. Zadajte cislo v rozmedzi 1 az 10.\n");
+        printf("Chyba: Neplatna volba. Musite zadat cislo v rozmedzi 1 az 10.\n");
         return 1; 
     }
 
